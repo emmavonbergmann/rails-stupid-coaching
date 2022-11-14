@@ -1,15 +1,54 @@
-/*
- * This is a manifest file that'll be compiled into application.css, which will include all the files
- * listed below.
- *
- * Any CSS (and SCSS, if configured) file within this directory, lib/assets/stylesheets, or any plugin's
- * vendor/assets/stylesheets directory can be referenced here using a relative path.
- *
- * You're free to add application-wide styles to this file and they'll appear at the bottom of the
- * compiled file so the styles you add here take precedence over styles defined in any other CSS
- * files in this directory. Styles in this file should be added after the last require_* statement.
- * It is generally better to create a new file per style scope.
- *
- *= require_tree .
- *= require_self
- */
+
+span {
+  font-size: 70px;
+  padding: 20px;
+  margin:20px;
+}
+
+.first{
+  font-size: 30px;
+  font-weight:lighter;
+  padding: 20px 20px 20px 20px;
+  background-color: white;
+  border-left: 5px #DDDDDD solid;
+  margin: 20px ;
+}
+.second{
+  font-size: 30px;
+  font-weight:lighter;
+  padding: 20px 20px 20px 20px;
+  background-color: #FEFDE1;
+  border-left: 5px #DDDDDD solid;
+  margin: 20px ;
+}
+
+.hello{
+  color:pink;
+  text-decoration: none;
+  font-size: 30px;
+  font-weight:lighter;
+  padding: 20px 20px 20px 20px;
+  background-color: rgb(205, 48, 74);
+  border-left: 5px #eb8181 solid;
+  margin: 20px ;
+}
+.hello:hover{
+  color:rgb(108, 33, 46);
+  text-decoration: none;
+  font-size: 30px;
+  font-weight:lighter;
+  padding: 20px 20px 20px 20px;
+  background-color: rgb(205, 48, 74);
+  border-left: 5px #eb8181 solid;
+  margin: 20px ;
+}
+.form{
+  color:rgb(21, 222, 198);
+  text-decoration: none;
+  font-size: 30px;
+  font-weight:lighter;
+  padding: 20px 20px 20px 20px;
+  background-color: rgb(29, 75, 14);
+  border-left: 5px #ebd681 solid;
+  margin: 20px ;
+}
